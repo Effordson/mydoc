@@ -187,7 +187,7 @@ store凭据默认为：~/.git-credentials，也可以在配置的时候指定文
 vim ~/.git-credentials
 
 # 保存以下内容 
-https://{username}:{passwd}@github.com/Effordson/mydoc.git
+https://username:passwd@github.com/Effordson/mydoc.git
 ```
 
 为仓库设置凭据
