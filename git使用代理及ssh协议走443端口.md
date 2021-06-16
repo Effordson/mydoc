@@ -71,9 +71,9 @@ local 即是当前 clone 仓库 的配置文件(位于 clone 仓库下 .git/conf
 
 ## 配置https代理服务器
 
-**前提：**git下载代码方式是https连接，需要配置squid或者其他的代理服务器
+**前提：**  git下载代码方式是https连接，需要配置squid或者其他的代理服务器
 
-**适用范围：**Windows和Linux
+**适用范围：**  Windows和Linux
 
 配置https代理，没有身份验证代理：
 
@@ -229,7 +229,7 @@ git config credential.helper store --file .git/.my-credentials
 
 ## 在 HTTPS 端口使用 SSH
 
-**来自GitHub官方文档：**https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/using-ssh-over-the-https-port
+**来自GitHub官方文档：**  https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/using-ssh-over-the-https-port
 
 有时，防火墙会完全拒绝允许 SSH 连接。 如果无法选择使用具有凭据缓存的 HTTPS 克隆，您可以尝试使用通过 HTTPS 端口建立的 SSH 连接克隆。 大多数防火墙规则应允许此操作，但代理服务器可能会干扰。
 
@@ -246,7 +246,7 @@ provide shell access.
 
 如果这样有效，万事大吉！ 如果无效，您可能需要遵循我们的故障排除指南。
 
-**故障排除指南：**https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey
+**故障排除指南：**  https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey
 
 
 
