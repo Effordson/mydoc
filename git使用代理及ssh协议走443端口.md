@@ -1,3 +1,15 @@
+- [git客户端连接服务器的2种方式](#git客户端连接服务器的2种方式)
+  - [git config配置生效范围](#git-config配置生效范围)
+- [通过代理服务器https连接](#通过代理服务器https连接)
+  - [配置https代理服务器](#配置https代理服务器)
+  - [取消https代理设置](#取消https代理设置)
+  - [https免密码提交设置](#https免密码提交设置)
+    - [预设账号密码](#预设账号密码)
+    - [在Windows中添加凭据](#在windows中添加凭据)
+- [通过https端口创建ssh连接github服务器](#通过https端口创建ssh连接github服务器)
+  - [在 HTTPS 端口使用 SSH](#在-https-端口使用-ssh)
+  - [使用SSH下载代码仓库](#使用ssh下载代码仓库)
+
 # git客户端连接服务器的2种方式
 
 git的使用这里不再赘述，此篇文章与代理相关。全文简易干货
