@@ -124,6 +124,8 @@ git config --global --unset https.proxy
 
 一共有2种方式免密push，一种是在下载仓库的时候设置账号密码，二是添加凭据
 
+参考文档：https://www.cnblogs.com/volnet/p/git-credentials.html
+
 ### 预设账号密码
 
 1、https方式，指定用户名和密码，git clone时指定：
